@@ -1,5 +1,6 @@
 <template>
-  <div class="container"><!--container -> bulma-->
+  <div class="container">
+    <!--container -> bulma-->
     <router-view />
   </div>
 </template>
