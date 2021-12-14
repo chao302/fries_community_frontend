@@ -19,7 +19,7 @@ import PostList from "@/views/post/Index";
 
 export default {
   name: "Home",
-  components: { CardBar, TopList: PostList },
+  components: { CardBar, TopicList: PostList },
   data() {
     return {
       billboard: {
