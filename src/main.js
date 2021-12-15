@@ -12,8 +12,21 @@ import ElementUI from "element-ui";
 import "element-ui/lib/theme-chalk/index.css";
 
 import "@/assets/app.css";
+import "./assets/plugins/font-awesome-4.7.0/css/font-awesome.min.css";
 
-import '@/permission'
+import "@/permission";
+import relativeTime from "dayjs/plugin/relativeTime";
+// 国际化
+import "dayjs/locale/zh-cn";
+const dayjs = require("dayjs");
+
+// 相对时间插件
+dayjs.extend(relativeTime);
+
+dayjs.locale("zh-cn"); // 全局使用区域设置
+dayjs().locale("zh-cn").format(); // 在特定实例中使用语言环境
+
+Vue.prototype.dayjs = dayjs; //可以全局使用dayjs
 
 Vue.use(Buefy);
 Vue.use(ElementUI);

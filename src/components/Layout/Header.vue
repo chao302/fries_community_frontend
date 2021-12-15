@@ -3,7 +3,7 @@
     <b-navbar class="container is-white" :fixed-top="true">
       <template slot="brand">
         <b-navbar-item tag="div">
-          <img :src="doubaoImg" alt="logo" />
+          <img :src="firesImg" alt="logo" />
         </b-navbar-item>
 
         <b-navbar-item
@@ -99,7 +99,7 @@ export default {
   data() {
     return {
       logoUrl: require("@/assets/logo.png"),
-      doubaoImg: require("@/assets/image/fires.png"),
+      firesImg: require("@/assets/image/fires.png"),
       searchKey: "",
       darkMode: false,
     };
