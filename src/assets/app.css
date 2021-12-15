@@ -15,11 +15,6 @@ html {
     sans-serif, Apple Color Emoji, Segoe UI Emoji, Noto Color Emoji,
     Segoe UI Symbol, Android Emoji, EmojiSymbols;
 }
-/*背景图*/
-/*body {*/
-/*    background-image: url('https://api.mz-moe.cn/img.php');*/
-/*    background-repeat: round;*/
-/*}*/
 
 @media (min-width: 768px) {
   .container {
@@ -90,8 +85,10 @@ a:hover {
 .navbar-dropdown {
   font-size: 15px;
 }
+
 /*统一卡片样式*/
 .el-card {
+  /*border-radius: 3px !important;*/
   margin-bottom: 16px;
 }
 

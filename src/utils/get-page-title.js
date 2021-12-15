@@ -1,4 +1,4 @@
-const title = '小而美的智慧社区系统'
+const title = '土豆社区'
 
 export default function getPageTitle(pageTitle) {
     if (pageTitle) {

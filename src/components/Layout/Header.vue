@@ -99,7 +99,7 @@ export default {
   data() {
     return {
       logoUrl: require("@/assets/logo.png"),
-      doubaoImg: require("@/assets/image/doubao.png"),
+      doubaoImg: require("@/assets/image/fires.png"),
       searchKey: "",
       darkMode: false,
     };
