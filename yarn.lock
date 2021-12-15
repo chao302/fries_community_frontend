@@ -2994,6 +2994,11 @@ cyclist@^1.0.1:
   resolved "https://registry.nlark.com/cyclist/download/cyclist-1.0.1.tgz#596e9698fd0c80e12038c2b82d6eb1b35b6224d9"
   integrity sha1-WW6WmP0MgOEgOMK4LW6xs1tiJNk=
 
+darkreader@^4.9.43:
+  version "4.9.43"
+  resolved "https://registry.npmmirror.com/darkreader/download/darkreader-4.9.43.tgz#c88da02b4e533d18700b36281c053b19e23e1fb4"
+  integrity sha512-L6TryKvQiwLcR6YDggkITcPRh9OZeobYkUXHowJOzrV17gT6e0weldbaIJTwdPCoI9tdehTuyyXC8b76/wXhPQ==
+
 dashdash@^1.12.0:
   version "1.14.1"
   resolved "https://registry.nlark.com/dashdash/download/dashdash-1.14.1.tgz#853cfa0f7cbe2fed5de20326b8dd581035f6e2f0"
@@ -5572,6 +5577,11 @@ npm-run-path@^4.0.0:
   integrity sha1-t+zR5e1T2o43pV4cImnguX7XSOo=
   dependencies:
     path-key "^3.0.0"
+
+nprogress@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/nprogress/download/nprogress-0.2.0.tgz#cb8f34c53213d895723fcbab907e9422adbcafb1"
+  integrity sha1-y480xTIT2JVyP8urkH6UIq28r7E=
 
 nth-check@^1.0.2:
   version "1.0.2"
