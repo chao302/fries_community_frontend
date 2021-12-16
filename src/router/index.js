@@ -45,6 +45,13 @@ const routes = [
     path: "/post/:id",
     component: () => import("@/views/post/Detail"),
   },
+  // 检索
+  {
+    name: "search",
+    path: "/search",
+    component: () => import("@/views/Search"),
+    meta: { title: "检索" },
+  },
   {
     path: "/404",
     name: "404",
